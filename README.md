@@ -8,7 +8,7 @@ Download the latest notarized Apple Silicon DMG from [GitHub Releases](https://g
 
 ## Install
 
-1. Download `GateSignal_0.1.2_aarch64.dmg`.
+1. Download `GateSignal_0.1.3_aarch64.dmg`.
 2. Open the DMG.
 3. Drag GateSignal into the Applications folder.
 4. Launch GateSignal from Applications.
@@ -22,14 +22,21 @@ Download the latest notarized Apple Silicon DMG from [GitHub Releases](https://g
 ## System Requirements
 
 - macOS on Apple Silicon
-- Version: 0.1.2
+- Version: 0.1.3
+
+## What's New in 0.1.3
+
+- All destructive actions now require confirmation.
+- Delete audit records retain a snapshot of the removed data.
+- Database backups are verified before a success audit is recorded.
+- Data-protection tests now cover authorization, CSRF, deletion, and backup failures.
 
 ## Verify
 
 SHA-256:
 
 ```text
-977ac954bd92c7bc985299cbd710a6e3fdd940da45794dfb26e175fe258d9045  GateSignal_0.1.2_aarch64.dmg
+bf6a18bc32bdd1ee444aea18ca482c4863023ece49599bbd00f71956bc2eb583  GateSignal_0.1.3_aarch64.dmg
 ```
 
 Copyright (c) 2026 GateSignal.
